@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8eccd030b7.js" crossorigin="anonymous"></script>
+    <head>
+
+    </head>
+    <body>
+        <section class="container">
+        <div class="titles">
+            <h1>Contactanos</h1>
+            <p>Cualquier pregunta o consulta? Envianos un mensaje</p>
+        </div>
+        <div class="row">
+        
+        <div class="column-left bg-color">
+            <img class="image-size" src="/Imagenes/team.jpg" alt="equipo_img">
+        
+        <div class="details-position">
+            <div class="details-text"><h4>Llamanos!</h4>
+                <p>4281108647<br>
+                Dudas y sugerencias
+                </p>
+            
+            </div>
+            <div class="details-text"><h4>Ubicacion</h4>
+                <p>Dolores Hidalgo, Gto, Mex</p>
+            
+            </div>
+            <div class="details-text"><h4>Horario de atencion</h4>
+                <p>Lunes - Viernes<br>
+                    8:00 AM - 5:00 PM</p>
+            
+            </div>
+        </div>
+        
+        <div class="box-center">
+            <div class="box-position">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </div>
+            <div class="box-position">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+            </div>
+            <div class="box-position">
+                <i class="fa-brands fa-linkedin-in fa-2x"></i>
+            </div>
+        </div>
+        </div>
+
+        <div class="form-size column-left">
+            <h2>Escribe tus datos</h2>
+            <p>Tienes alguna pregunta o consulta, contacta a nuestro equipo.</p>
+
+                <form action="https://formsubmit.co/adolfoangelolverasandoval21@gmail.com" method="POST">
+
+                    <div class="form-inside">
+
+                        <label for ="name">Nombre:</label>  <br>
+                        <input type="text" name="name" required>
+                        <br>
+                        
+                        <label for ="phone">Telefono:</label> <br>
+                        <input type="number" id="phone" name="phone">
+                        <br>
+
+                        <label for ="company">Empresa:</label> <br>
+                        <input type="text" id="company" name="company">
+                        <br>
+
+                        <label for ="email">Correo Electronico:</label> <br>
+                        <input type="email" id="email" name="email">
+                        <br>
+
+                        <label for ="inquiry">Tipo de consulta:</label> <br>
+                        <!-- <input type="value" id="inquiry" name="type">  -->
+                        <select type="value" name="type">
+                            <option value="Sales">Compras</option>
+                            <option value="Shops">Ventas</option>
+                            <option value="Project Quote">Cotizacion</option>
+                            <option value="Services">Servicios</option>
+                            <option value="Feedback">Reembolsos</option>
+                            <option value="Proveedores">Proveedores</option>
+                        </select>
+                        <br>
+
+                        <label for ="message">Escriba su mensaje:</label> <br>
+                        <textarea type="text" id="message" name="message" rows="5" required>
+                        </textarea>
+
+                        <br>
+                        <button type="submit">Enviar</button>
+
+                    </div>
+                </form>
+        </div>
+        </div>
+        </section>
+    </body>
+</html>

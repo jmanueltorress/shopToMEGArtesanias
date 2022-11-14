@@ -1,2 +1,1 @@
-# shopToMEGArtesanias
-Tienda online para venta de productos de ceramica
+*Sitio web para MEGA
