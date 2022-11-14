@@ -111,7 +111,7 @@ function displayCart(){
             <div class="product">
                 <ion-icon name="close-circle-outline"></ion-icon>
                 <span Style="Color:white">${item.name} </span>
-                <img src="Imagenes/${item.tag}.jpeg" width="250px" height="250px">||<img src="Imagenes/${item.tag}.jpg" width="250px" height="250px">
+                <img src="Imagenes/${item.tag}.jpeg" width="250px" height="250px">
             </div>
             <div class="price"> precio:${item.price}</div>
             <div class="quantity">cantidad:
