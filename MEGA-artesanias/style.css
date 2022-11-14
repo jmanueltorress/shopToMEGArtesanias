@@ -1,0 +1,170 @@
+
+body{
+    border-radius: solid;
+    border-width: 2px;
+}
+.container{
+    /* border-style: solid; */
+    max-width:1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+}
+
+.titles h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+}
+.titles p{
+    font-size: 25px;
+    margin-top: -70px;
+    text-align: center;
+}
+
+.column-left{
+    float: left;
+    width: 47%;
+    /* border-style: solid; */
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.image-size{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+
+}
+
+.bg-color{
+    background-color: #e55f34 ;
+
+    border-radius: 10px;
+
+}
+
+.details-position{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.details-text{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    background-color: #e84008;
+    border-radius: 10px;
+    margin: 10px;
+    height: 120px;
+    /* border-style: solid; */
+}
+
+.box-center{
+    /* border-style: solid; */
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+.box-position{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+    /* border-style: solid; */
+}
+
+
+.form-size{
+    /* border-style: solid; */
+    border-width: 2px;
+    padding: 10px;
+    /* margin: 25px 425px 75px; */
+    background-color: #e55f34 ;
+    border-radius: 10px;
+    /* margin: 0 0 px; */
+    width: 42%;
+    
+    
+} 
+
+.form-size h2{
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-size p{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -50px;
+}
+
+.form-inside{
+    /* border-style: solid; */
+    border-width: 2px;
+    width: fit-content;
+    margin-left: 50px;
+    
+    
+}
+
+
+.form-inside label{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.form-inside input{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 450px;
+    border-radius: 7px;
+    /* border-width: 2px; */
+    padding: 10px;
+    background-color: #e5e5e5;
+    
+}
+
+.form-inside select{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    width: 475px;
+    border-radius: 7px;
+    border-width: 2px;
+    padding: 10px;
+    background-color: #e5e5e5;
+}
+
+#message{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    width:454px ;
+    border-radius: 7px;
+    /* border-width: 2px; */
+    padding: 10px;
+    background-color: #e5e5e5;
+}
+
+.form-inside button{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#5bc0eb ;
+    border-radius: 20px;
+}
