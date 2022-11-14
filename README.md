@@ -1,1 +1,1 @@
-*Sitio web para MEGA
+*Sitio web para MEGArtesanias
